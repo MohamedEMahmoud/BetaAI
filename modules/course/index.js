@@ -33,7 +33,7 @@ module.exports = function (app) {
       preValidation.createCourse,
       preValidation.courseMessage,
       fileValidation.validationPhoto,
-      // fileValidation.validationVideo,
+      fileValidation.validationVideo,
     ],
     courseControllers.createCourse,
     handleErrors
